@@ -11,7 +11,7 @@ Using one image as base, you can generate a full image resolution with watermark
 - Update your aws credentials to `env.example.yml` and rename it to `env.yml`
 - Run `npm run deploy`
 - Configure your aws s3 bucket at the events tab under "properties" to point to your deployed lambda
-![](https://github.com/postack/watermark-upload/images/aws_s3.png)
+![](https://raw.githubusercontent.com/postack/watermark-upload/master/images/aws_s3.png)
 
 ### Thanks to [MediaPatagonia.com.ar](https://mediapatagonia.com.ar) 
 ![](https://raw.githubusercontent.com/postack/watermark-upload/master/images/logo_small.png)
