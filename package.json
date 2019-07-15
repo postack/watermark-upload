@@ -1,0 +1,22 @@
+{
+  "name": "mediapatagonia-serverless",
+  "version": "1.0.0",
+  "description": "triggers functions to mediapatagonia",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "sls offline start --stage prd",
+    "deploy": "sls --aws-profile personal deploy --stage prd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxi",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.493.0",
+    "jimp": "^0.6.4",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.7.3"
+  }
+}
