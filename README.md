@@ -14,4 +14,4 @@ Using one image as base, you can generate a full image resolution with watermark
 ![](https://github.com/postack/watermark-upload/images/aws_s3.png)
 
 ### Thanks to [MediaPatagonia.com.ar](https://mediapatagonia.com.ar) 
-![](https://github.com/postack/watermark-upload/images/logo_small.png)
+![](https://raw.githubusercontent.com/postack/watermark-upload/master/images/logo_small.png)
