@@ -95,7 +95,7 @@ exports.watermark = function(event, context, callback) {
             console.log('upload resized', contentType, data)
             s3.putObject({
               Bucket: dstBucket,
-              Key: `small_${dstKey}-${(new Date()).toISOString()}`,
+              Key: `small_${dstKey}`,
               Body: data[0],
               ContentType: contentType
             },
@@ -108,7 +108,7 @@ exports.watermark = function(event, context, callback) {
             // Stream the transformed image to a different S3 bucket.
             s3.putObject({
               Bucket: dstBucket,
-              Key: `w_${dstKey}-${(new Date()).toISOString()}`,
+              Key: `w_${dstKey}`,
               Body: data[1],
               ContentType: contentType
             },
